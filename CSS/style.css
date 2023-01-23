@@ -29,6 +29,10 @@ COMMON
     border-width: 2px;
  }
 
+ footer{
+    background-color: #23272a;
+ }
+
  /* 
  -----------
  HEADER
@@ -127,7 +131,6 @@ COMMON
 }
 
 .footer-box{
-    background-color: #23272a;
     padding-top: 10px;
     padding-bottom: 40px;
     height: 580px;
@@ -144,4 +147,28 @@ COMMON
 .r-box{
     background-color: #f08080;
     width: calc(100%/6*2)
+}
+hr{
+   height: 2px;
+   background-color: white; 
+    border: none;
+}
+
+.footer-end{
+    padding-top: 30px;
+    height: 113px;
+    display: flex;
+}
+
+.last-footer{
+   height: 80px; 
+   background-color: #7fffd4;
+   width: 60%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.f-logo, .f-button{
+    background-color: #ffb6c1;
+    padding: 5px;
 }
