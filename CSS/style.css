@@ -1,11 +1,59 @@
 /* 
 -------------
 RESET
--------------
-*/
+-------------*/
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* 
+------------
+COMMON
+----------*/
+
+ div{
+    justify-content: center;
+ }
+
+ /* 
+ -----------
+ HEADER
+ ------------ */
+
+ .background-nav{
+    background-color: #add8e6;
+    margin-top: 0px;
+ }
+
+ nav{
+    display: flex;
+ }
+
+ nav-bar{
+    margin-top: 0px;
+ }
+ nav div{
+    margin: 0px;
+    justify-content: space-between;
+    background-color: #daa520;
+    border: dashed black;
+    border-width: 2px;
+ }
+
+ .logo{
+    width: 20%;
+ }
+
+ .link{
+    width: 60%;
+    text-align: center;
+ }
+
+ .login{
+    width: 20%;
+    text-align: end;
+ }
