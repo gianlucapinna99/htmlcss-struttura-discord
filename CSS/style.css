@@ -24,6 +24,11 @@ COMMON
     padding: 50px 0;
  }
 
+ .border{
+    border: dashed black;
+    border-width: 2px;
+ }
+
  /* 
  -----------
  HEADER
@@ -42,7 +47,9 @@ COMMON
  }
 
  .nav-bar{
-    margin-top: 0px 360px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #add8e6;
  }
  nav div{
     margin: 0px;
@@ -54,6 +61,7 @@ COMMON
  .logo{
     justify-content: flex-start;
     width: 20%;
+    padding-left: 10px;
  }
 
  .link{
@@ -64,6 +72,7 @@ COMMON
  .login{
     justify-content: flex-end;
     width: 20%;
+    
  }
 
  .jumbotron{
@@ -80,3 +89,59 @@ COMMON
     height: 500px;
     background-color: #00008b;
  }
+
+ /* 
+ ----------
+ MAIN
+ -----------
+  */
+
+.main-box{
+   height: 500px; 
+   width: 100%;
+}
+
+.center{
+    width: 60%;
+}
+
+.blue-box{
+    background-color: #1e90ff;
+    width: 70%;
+}
+
+.pink-box{
+    background-color: #ffc0cb;
+    width: 30%;
+}
+
+.grey{
+    background-color: #d3d3d3;
+}
+
+
+.green-box{
+    background-color: #228b22;
+    width: 60%;
+    height: 900px;
+}
+
+.footer-box{
+    background-color: #23272a;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    height: 580px;
+    width: 100%
+}
+
+.lb-box{
+    background-color: #20b2aa;
+    width: calc(100%/6);
+    border: dashed white;
+    border-width: 2px;
+}
+
+.r-box{
+    background-color: #f08080;
+    width: calc(100%/6*2)
+}
