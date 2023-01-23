@@ -20,6 +20,7 @@ COMMON
     justify-content: center;
  }
 
+
  /* 
  -----------
  HEADER
@@ -74,4 +75,6 @@ COMMON
 
  .j-box{
     height: 500px;
+    background-color: #00008b;
+    padding-top: 50px;
  }
