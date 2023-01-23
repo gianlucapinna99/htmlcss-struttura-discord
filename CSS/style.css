@@ -20,6 +20,9 @@ COMMON
     justify-content: center;
  }
 
+ .box{
+    padding: 50px 0;
+ }
 
  /* 
  -----------
@@ -35,11 +38,11 @@ COMMON
  nav{
     display: flex;
     width: 70%;
+    justify-content: space-between;
  }
 
- nav-bar{
+ .nav-bar{
     margin-top: 0px 360px;
-    width: 300px;
  }
  nav div{
     margin: 0px;
@@ -49,18 +52,18 @@ COMMON
  }
 
  .logo{
-    width: 20%;
     justify-content: flex-start;
+    width: 20%;
  }
 
  .link{
-    width: 60%;
     text-align: center;
+    flex-grow: 3;
  }
 
  .login{
-    width: 20%;
     justify-content: flex-end;
+    width: 20%;
  }
 
  .jumbotron{
@@ -76,5 +79,4 @@ COMMON
  .j-box{
     height: 500px;
     background-color: #00008b;
-    padding-top: 50px;
  }
