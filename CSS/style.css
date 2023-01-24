@@ -15,7 +15,7 @@ RESET
 COMMON
 ----------*/
 
- div{
+div{
     display: flex;
     justify-content: center;
  }
@@ -33,6 +33,18 @@ COMMON
     background-color: #23272a;
  }
 
+ .container{
+   margin: 0 auto;
+ }
+
+ .container.big{
+   max-width: 1200px;
+ }
+
+ .container.small{
+   max-width: 900px;
+ }
+
  /* 
  -----------
  HEADER
@@ -40,49 +52,58 @@ COMMON
 
  .background-nav{
     background-color: #add8e6;
-    margin-top: 0px;
-    justify-content: space-between;
  }
 
- nav{
-    display: flex;
+ header .header-top .header-bar{
+   display: flex;
+ }
+
+ header .header-top .header-logo,
+ header .header-top .header-login{
+   width: 20%;
+ }
+
+.header-bar{
     width: 70%;
     justify-content: space-between;
+    background-color: #daa520;
  }
 
  .header-top{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 15px 0;
     background-color: #add8e6;
  }
  nav div{
     margin: 0;
-    background-color: #daa520;
     border: dashed black;
     border-width: 2px;
  }
-
- .logo{
+ 
+ .header-logo{
     justify-content: flex-start;
-    width: 20%;
     padding-left: 10px;
  }
 
- .link{
+ .header-top .header-bar .header-link ul{
+   list-style-type: none;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+ }
+ .header-link{
     text-align: center;
     flex-grow: 3;
  }
 
- .login{
+ .header-login{
     justify-content: flex-end;
-    width: 20%;
     padding-right: 10px;    
  }
 
  .jumbotron{
     background-color: #ee82ee;
     width: 60%;
-    margin: 55 auto;
+    margin: 55 0;
  }
 
  .jumbo-debug{
@@ -109,12 +130,12 @@ COMMON
     width: 60%;
 }
 
-.blue-box{
+.col-big{
     background-color: #1e90ff;
     width: 70%;
 }
 
-.pink-box{
+.col-small{
     background-color: #ffc0cb;
     width: 30%;
 }
@@ -124,7 +145,7 @@ COMMON
 }
 
 
-.green-box{
+.col-full{
     background-color: #228b22;
     width: 60%;
     height: 900px;
