@@ -50,7 +50,7 @@ COMMON
     justify-content: space-between;
  }
 
- .nav-bar{
+ .header-top{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #add8e6;
@@ -81,15 +81,15 @@ COMMON
 
  .jumbotron{
     background-color: #ee82ee;
- }
-
- .jumbo-debug{
-    height: 400px;
     width: 60%;
     margin: 55 auto;
  }
 
- .j-box{
+ .jumbo-debug{
+    height: 400px;
+ }
+
+ .header-bottom{
     height: 500px;
     background-color: #00008b;
  }
