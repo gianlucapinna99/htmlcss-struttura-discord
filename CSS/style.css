@@ -56,7 +56,7 @@ COMMON
     background-color: #add8e6;
  }
  nav div{
-    margin: 0px;
+    margin: 0;
     background-color: #daa520;
     border: dashed black;
     border-width: 2px;
@@ -76,7 +76,7 @@ COMMON
  .login{
     justify-content: flex-end;
     width: 20%;
-    
+    padding-right: 10px;    
  }
 
  .jumbotron{
@@ -129,6 +129,11 @@ COMMON
     width: 60%;
     height: 900px;
 }
+
+/* 
+-------------
+FOOTER
+------------- */
 
 .footer-box{
     padding-top: 10px;
